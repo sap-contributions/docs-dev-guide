@@ -23,6 +23,8 @@ Suppose a developer obtains a URL, port, user name, and password for communicati
 
 User-provided service instances allow developers to configure their apps with these using the familiar [App binding](application-binding.html) operation and the same app runtime environment variable used by Cloud Foundry to deliver credentials for Marketplace services ([VCAP_SERVICES](../deploy-apps/environment-variable.html#VCAP-SERVICES)).
 
+Check [Credential Delivery Methods](./application-binding.html#credential-delivery-methods) for all delivery methods of credentials to apps.
+
 <pre class="terminal">
 cf cups SERVICE_INSTANCE -p '{"username":"admin","password":"pa55woRD"}'
 </pre>
