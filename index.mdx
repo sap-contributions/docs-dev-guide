@@ -2,23 +2,21 @@
 title: App developer guide
 ---
 
-This guide provides instructions for deploying, running, and managing apps and services with <%= vars.app_runtime_first %>.
-
-<%= vars.gsg_app_video_link %>
+This guide provides instructions for deploying, running, and managing apps and services with Cloud Foundry.
 
 
 ## <a id='overview'></a> Overview
 
-Developing, running, and managing apps on <%= vars.app_runtime_abbr %> might include:
+Developing, running, and managing apps on Cloud Foundry might include:
 
 * Deploying and scaling apps with diverse languages, frameworks, and dependencies
 * Finding software services in the services Marketplace, such as databases, email, or message servers
-* Creating your own <%= vars.app_runtime_abbr %> service based on an external server
+* Creating your own Cloud Foundry service based on an external server
 * Creating service instances and binding them to your apps
 * Streaming app logs to an external log management service
 * Troubleshooting app deployment and health
 
-If you do these things, you are a <%= vars.app_runtime_abbr %> **developer**, and the contents of this guide are for you.
+If you do these things, you are a Cloud Foundry **developer**, and the contents of this guide are for you.
 
 ## <a id='contents'></a> Contents
 
@@ -41,7 +39,7 @@ If you do these things, you are a <%= vars.app_runtime_abbr %> **developer**, a
 * **Routes and Domains:** How to configure routes and domains.
   * [Configuring routes and domains](deploy-apps/routes-domains.html)
   * [Configuring per-route options](custom-per-route-options.html)
-  * [Configuring <%= vars.app_runtime_abbr %> to route traffic to apps on custom ports](custom-ports.html)
+  * [Configuring Cloud Foundry to route traffic to apps on custom ports](custom-ports.html)
   * [Routing HTTP/2 and gRPC traffic to apps](http2-protocol.html)
 
 * **Managing Apps with the cf CLI:** How to manage apps through the Cloud Foundry Command Line Interface (cf CLI).
@@ -74,6 +72,6 @@ If you do these things, you are a <%= vars.app_runtime_abbr %> **developer**, a
   * [Accessing apps with SSH](deploy-apps/ssh-apps.html)
   * [Accessing services with SSH](deploy-apps/ssh-services.html)
 
-* [<%= vars.app_runtime_abbr %> environment variables](deploy-apps/environment-variable.html): The environment variables that the <%= vars.app_runtime_abbr %> runtime and buildpacks set for a deployed app.
+* [Cloud Foundry environment variables](deploy-apps/environment-variable.html): The environment variables that the Cloud Foundry runtime and buildpacks set for a deployed app.
 
-* [Cloud Controller API client libraries](capi/client-libraries.html): Libraries for calling the Cloud Controller, the executive component of <%= vars.app_runtime_abbr %>, programmatically.
+* [Cloud Controller API client libraries](capi/client-libraries.html): Libraries for calling the Cloud Controller, the executive component of Cloud Foundry, programmatically.
